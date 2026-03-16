@@ -19,7 +19,7 @@ def ask(question: str) -> dict:
         {
             "answer": "your answer here",
             "confidence": "high | medium | low",
-            "follow_up": "one useful follow-up question the user might want to ask"
+            "follow_up": "one useful follow-up question the user might want to ask",
             "topic": "one word category of the question"
         }
         Return only the JSON object. No preamble, no markdown backticks.""",
